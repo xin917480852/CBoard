@@ -356,7 +356,7 @@
             <artifactId>json-path</artifactId>
             <version>2.4.0</version>
         </dependency>
-        <!--maven不支持oracle驱动，需要将oracle驱动jar包加编译到本地maven仓库在添加到到pom中-->
+        <!--maven不支持oracle驱动，需要将oracle驱动jar包加编译到本地maven仓库在添加到到pom中去-->
         <dependency>
             <groupId>com.oracle</groupId>
             <artifactId>ojdbc6</artifactId>
