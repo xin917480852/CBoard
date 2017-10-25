@@ -11,7 +11,9 @@ cBoard.controller('cBoardCtrl', function ($rootScope, $scope, $location, $http, 
 
     $http.get("commons/getUserDetail.do").success(function (response) {
         $scope.user = response;
-        var avatarUrl = 'dist/img/user-male-circle-blue-128.png';
+        //var avatarUrl = 'dist/img/user-male-circle-blue-128.png';
+        //将头像改成一个帅哥，这里是写死的，后续可以做成用户上传的头像
+        var avatarUrl = 'dist/img/user8-128x128.jpg';
         $scope.user.avatar = avatarUrl;
     });
 
